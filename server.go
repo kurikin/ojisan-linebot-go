@@ -5,8 +5,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/greymd/ojichat/generator"
 	"github.com/line/line-bot-sdk-go/v7/linebot"
+
+	// Copyright (c) 2019 Yamada, Yasuhiro
+	// https://github.com/greymd/ojichat
+	"github.com/greymd/ojichat/generator"
 )
 
 type Config struct {
