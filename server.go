@@ -21,8 +21,8 @@ type Config struct {
 func main() {
 	config := generator.Config{
 		TargetName:       "くりきん",
-		EmojiNum:         2,
-		PunctuationLevel: 1,
+		EmojiNum:         3,
+		PunctuationLevel: 2,
 	}
 
 	bot, err := linebot.New(
